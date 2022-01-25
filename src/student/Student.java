@@ -6,7 +6,8 @@
 package student;
 
 /**
- *
+ *date jan 25th
+ * Class software fund
  * @author brand
  */
 public class Student {
