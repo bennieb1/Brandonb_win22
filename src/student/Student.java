@@ -9,6 +9,7 @@ package student;
  *date jan 25th
  * Class software fund
  * @author brand
+ hello 
  */
 public class Student {
 
