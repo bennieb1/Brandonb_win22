@@ -18,12 +18,11 @@ studentList[0] = new Student ("s1","Ronak Sheth");
 studentList[1] = new Student ("s2","John Doe");
 studentList[2] = new Student ("s3","Abc");
 
-for(int i=0;i<studentList.length;i++)
-{
-System.out.print(studentList[i].getStudentId());
-System.out.print(" ");
-System.out.println(studentList[i].getStudentName());
-}
+    for (Student studentList1 : studentList) {
+        System.out.print(studentList1.getStudentId());
+        System.out.print(" ");
+        System.out.println(studentList1.getStudentName());
+    }
 }
 
 }
